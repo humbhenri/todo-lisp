@@ -1,0 +1,16 @@
+body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.done {
+      color: gray;
+      text-decoration: line-through;
+      font-style: italic;
+}
+
+.del {
+    background:url(/img/del.png) center right no-repeat;
+    white-space: nowrap;
+}
