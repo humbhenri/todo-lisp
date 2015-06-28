@@ -33,7 +33,7 @@
                 ,@body)))
 
 (defmacro page-template (title &body body)
-  "c:/Users/humberto/lisp/todo/Generates the basic html page template with css"
+  "Generates the basic html page template with css"
   `(with-html-output-to-string (*standard-output* nil :prologue t :indent t)
      (:html
       (:head
